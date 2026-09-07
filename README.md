@@ -17,9 +17,9 @@
 
 ## 📌 What is AliasDesk?
 
-**AliasDesk** is a desktop application engineered for power users, developers, and privacy enthusiasts who manage high-volume email workflows and multi-account automation. 
+**AliasDesk** is a clean, fast desktop app that gives you **unlimited custom-domain emails for just ~$1/year**. 
 
-By integrating directly with **Cloudflare Email Routing**, AliasDesk enables you to generate, route, and manage unlimited custom-domain email aliases without ever having to create or log into separate email accounts. Every verification code, OTP, or email sent to any alias is delivered in real-time to your primary inbox.
+Instead of paying for expensive email inboxes or dealing with blocked fake/temp-mail services, you connect **one cheap $1 domain** and get **infinite emails**. Every single OTP, verification link, or message sent to any alias lands directly in your personal Gmail or Outlook inbox — with zero setup hassle and no password juggling!
 
 ---
 
@@ -29,15 +29,15 @@ By integrating directly with **Cloudflare Email Routing**, AliasDesk enables you
 
 ### 🧠 How It Works:
 1. **Buy 1 Cheap Domain for 1 Year (~$1.00 - $2.00)**:
-   - Purchase any inexpensive domain extension (such as `.xyz`, `.top`, `.online`, `.site`, or `.tech`) from registrars like Namecheap, Porkbun, or Cloudflare Registrar for around **$1.00 - $1.50 for a full year**.
+   - Purchase any inexpensive domain (such as `.xyz`, `.top`, `.online`, `.site`, or `.tech`) from Namecheap, Porkbun, or Cloudflare for about **$1.00 for the whole year**.
 2. **Add Domain to Cloudflare (100% Free)**:
-   - Point your domain's nameservers to Cloudflare. Cloudflare's Email Routing feature is completely free forever with zero sending limits or inbox caps.
+   - Cloudflare Email Routing is completely free forever with unlimited forwards and zero limits.
 3. **Turn On Catch-All in AliasDesk**:
-   - In AliasDesk, route `*@yourdomain.com` directly to your personal Gmail or Outlook address.
+   - Route `*@yourdomain.com` straight into your personal Gmail or Outlook inbox.
 4. **Generate Unlimited Emails**:
-   - You now have access to **infinite unique email addresses** (`netflix.user@yourdomain.com`, `paypal.secure@yourdomain.com`, `account_9482@yourdomain.com`).
-   - Every confirmation email, activation link, and OTP lands in your personal primary inbox instantly!
-   - **Total Annual Cost**: ~$1.00/year for 1,000, 10,000, or even 100,000+ separate emails!
+   - You now have access to **infinite unique email addresses** (`user1@yourdomain.com`, `test.ai@yourdomain.com`, `deal_94@yourdomain.com`).
+   - Every verification code and OTP lands in your personal inbox instantly!
+   - **Total Cost**: ~$1.00/year for 1,000 to 100,000+ emails!
 
 ### 📊 Cost & Value Comparison
 
@@ -50,12 +50,13 @@ By integrating directly with **Cloudflare Email Routing**, AliasDesk enables you
 
 ---
 
-### 🎯 Who is This For? (Popular Use Cases)
+### 🎯 Who is This For? (Popular Everyday Uses)
 
-- 🧪 **Software QA & Developers**: Test multi-tenant registration, email verification flows, and transactional emails with thousands of disposable yet accessible addresses.
-- 🥷 **Privacy-First Web Users**: Use a unique email alias for every website (e.g. `twitter@yourdomain.com`, `reddit@yourdomain.com`) to instantly detect who leaks or sells your data.
-- ⚡ **Airdrop Hunters & Multi-Account Managers**: Manage multiple accounts simultaneously with isolated browser sandboxing without getting linked or blacklisted.
-- 🛒 **Trial & Deal Hunters**: Sign up for trials, newsletters, or promo offers without polluting your main email address with spam.
+- 🤖 **Unlimited Free AI Tools & Credits**: Create fresh accounts on **ChatGPT, Claude, Midjourney, Cursor AI, Flux, Suno, ElevenLabs**, and other image/chat AI tools to easily claim free trial credits without buying phone numbers or paid plans.
+- 🎁 **Unlimited Free Trials & Discounts**: Sign up for streaming trials, software trials, and shopping promo codes over and over without cluttering your real email.
+- 🥷 **100% Spam-Free Privacy**: Use a unique alias for every website (`netflix@yourdomain.com`, `crypto@yourdomain.com`). You will instantly spot anyone who sells or leaks your email.
+- ⚡ **Multi-Account & Airdrop Hunters**: Run separate accounts with our 1-click isolated browser profiles without getting linked, fingerprinted, or banned.
+- 🧪 **Testers & Developers**: Test app signups and email verification flows with thousands of active addresses in seconds.
 
 ---
 
