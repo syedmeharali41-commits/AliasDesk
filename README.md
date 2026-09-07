@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="public/logo.png" width="110" alt="AliasDesk Logo" />
   <h1>AliasDesk</h1>
   <p><b>Next-Generation Cloudflare Email Routing & Isolated Browser Workspace</b></p>
@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/Next.js-16.1%20(Turbopack)-black.svg?style=flat-square" alt="Next.js" />
     <img src="https://img.shields.io/badge/Electron-44.1-47848F.svg?style=flat-square" alt="Electron" />
     <img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC.svg?style=flat-square" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/Cost-~$1%2FYear%20Unlimited%20Emails-success.svg?style=flat-square" alt="Cost" />
   </p>
 </div>
 
@@ -19,6 +20,24 @@
 **AliasDesk** is a desktop application engineered for power users, developers, and privacy enthusiasts who manage high-volume email workflows and multi-account automation. 
 
 By integrating directly with **Cloudflare Email Routing**, AliasDesk enables you to generate, route, and manage unlimited custom-domain email aliases without ever having to create or log into separate email accounts. Every verification code, OTP, or email sent to any alias is delivered in real-time to your primary inbox.
+
+---
+
+## 💡 The $1/Year Lifehack: Unlimited Custom Emails for 1 Year
+
+> **Why pay $6/month per inbox on Google Workspace or Microsoft 365 when you can have UNLIMITED emails for just ~$1 a year?**
+
+### 🧠 How It Works:
+1. **Buy 1 Cheap Domain for 1 Year (~$1.00 - $2.00)**:
+   - Purchase any inexpensive domain extension (such as `.xyz`, `.top`, `.online`, `.site`, or `.tech`) from registrars like Namecheap, Porkbun, or Cloudflare Registrar for around **$1.00 - $1.50 for a full year**.
+2. **Add Domain to Cloudflare (100% Free)**:
+   - Point your domain's nameservers to Cloudflare. Cloudflare's Email Routing feature is completely free forever with zero sending limits or inbox caps.
+3. **Turn On Catch-All in AliasDesk**:
+   - In AliasDesk, route `*@yourdomain.com` directly to your personal Gmail or Outlook address.
+4. **Generate Unlimited Emails**:
+   - You now have access to **infinite unique email addresses** (`netflix.user@yourdomain.com`, `paypal.secure@yourdomain.com`, `account_9482@yourdomain.com`).
+   - Every confirmation email, activation link, and OTP lands in your personal primary inbox instantly!
+   - **Total Annual Cost**: ~$1.00/year for 1,000, 10,000, or even 100,000+ separate emails!
 
 ---
 
