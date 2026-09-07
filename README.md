@@ -39,6 +39,24 @@ By integrating directly with **Cloudflare Email Routing**, AliasDesk enables you
    - Every confirmation email, activation link, and OTP lands in your personal primary inbox instantly!
    - **Total Annual Cost**: ~$1.00/year for 1,000, 10,000, or even 100,000+ separate emails!
 
+### 📊 Cost & Value Comparison
+
+| Solution | Annual Cost | Alias Limits | Custom Domain | Anti-Detect Sandboxing | OTP / Privacy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 👑 **AliasDesk + Cloudflare** | **~$1.00 / year** | **UNLIMITED (∞)** | ✅ Full Custom Domain | ✅ Isolated Ephemeral Profiles | 🛡️ 100% Private & Instant |
+| **Google Workspace** | $72 - $144 / year | 30 per user | ✅ Yes | ❌ None | ⚠️ Expensive per inbox |
+| **SimpleLogin / AnonAddy** | $30 - $36 / year | Limited on free | ⚠️ Requires paid plan | ❌ None | ⚠️ Shared domain flags |
+| **Public Temp-Mail Services** | "Free" | 1 temporary | ❌ Public domain only | ❌ None | 🚨 Blocked by most websites |
+
+---
+
+### 🎯 Who is This For? (Popular Use Cases)
+
+- 🧪 **Software QA & Developers**: Test multi-tenant registration, email verification flows, and transactional emails with thousands of disposable yet accessible addresses.
+- 🥷 **Privacy-First Web Users**: Use a unique email alias for every website (e.g. `twitter@yourdomain.com`, `reddit@yourdomain.com`) to instantly detect who leaks or sells your data.
+- ⚡ **Airdrop Hunters & Multi-Account Managers**: Manage multiple accounts simultaneously with isolated browser sandboxing without getting linked or blacklisted.
+- 🛒 **Trial & Deal Hunters**: Sign up for trials, newsletters, or promo offers without polluting your main email address with spam.
+
 ---
 
 ## ✨ Key Features
@@ -156,6 +174,22 @@ To enable live synchronization with Cloudflare:
    - `Zone` — `DNS` — **Read**
 4. Set Zone Resources to **All Zones** (or select your target domain).
 5. Copy the token and paste it into the AliasDesk onboarding wizard.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+### Q: Is it really unlimited emails for ~$1 a year?
+**Yes.** You only pay the registrar for your custom domain registration (e.g. ~$1 to $2 per year for `.xyz`, `.online`, or `.site`). Cloudflare provides the Email Routing backbone 100% free of charge without any message limits or artificial caps.
+
+### Q: Do websites block aliases created with AliasDesk?
+**No.** Websites frequently block free disposable email providers (like 10-Minute Mail or GuerrillaMail) because their public domains are blacklisted. With AliasDesk, every alias is hosted on **your private custom domain**, so it looks 100% legitimate to all verification systems.
+
+### Q: Can I use this with my existing Gmail or Outlook?
+**Yes.** Cloudflare Email Routing forwards all incoming traffic to any verified destination email address. You never need to change your primary inbox or create new logins.
+
+### Q: How does the isolated browser sandboxing work?
+AliasDesk launches isolated Chromium instances (Chrome, Edge, or Brave) using dynamic, separate `--user-data-dir` profiles in your `%TEMP%` directory. Once closed, you can perform a 1-click zero-trace sanitization to completely wipe all local session traces from your disk.
 
 ---
 
